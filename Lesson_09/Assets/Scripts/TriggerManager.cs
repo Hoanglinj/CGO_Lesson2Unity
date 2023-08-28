@@ -9,7 +9,7 @@ public class TriggerManager : MonoBehaviour
         if (other.gameObject.tag == "Ground")
         {
             Destroy(other.gameObject);
-            //tăng điểm lên
+           
         }
     }
     private void OnTriggerExit(Collider other)
